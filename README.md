@@ -14,7 +14,7 @@ g(x) = -2x^2 + 8x, se x < 1.
 
 Em seguida aplique essas funções nos seguintes casos: f(−3) e g(5).
 
-**OBSERVAÇÃO**: caso não esteja entendendo a descrição das funções acima, dê uma olhada no arquivo "[atividade_programacao-1info1.pdf](https://github.com/adrianorodriguesdemelo/atividade-1info1-2025/blob/main/atividade_programacao-1info1.pdf)" para maior clareza.
+**OBSERVAÇÃO**: caso não esteja entendendo a descrição das funções acima (sobretudo da função g(x), dê uma olhada no arquivo "[atividade_programacao-1info1.pdf](https://github.com/adrianorodriguesdemelo/atividade-1info1-2025/blob/main/atividade_programacao-1info1.pdf)" para maior clareza.
 
 ## Problema 2
 
