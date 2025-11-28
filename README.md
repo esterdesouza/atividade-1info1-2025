@@ -16,7 +16,7 @@ Em seguida aplique essas funções nos seguintes casos: f(−3) e g(5).
 
 **OBSERVAÇÃO**: caso não esteja entendendo a descrição das funções acima (sobretudo da função g(x)), dê uma olhada no arquivo "[atividade_programacao-1info1.pdf](https://github.com/adrianorodriguesdemelo/atividade-1info1-2025/blob/main/atividade_programacao-1info1.pdf)" para maior clareza.
 
-## Problema 2
+## [Problema 2](https://github.com/adrianorodriguesdemelo/atividade-1info1-2025/blob/main/problema2.html)
 
 Considere a seguinte situação: a população de um determinado tipo de bactéria triplica de tamanho a cada 2 dias. Construa uma função que calcule a população de uma colônia inicial mente com n bactérias, por um perı́odo de t dias.
 
