@@ -1,9 +1,8 @@
-
 <meta charset="UTF-8">
 <script>
   // NOMES DOS INTEGRANTES DO GRUPO:
 
-  
+
   /* PROBLEMA 2:
   Considere a seguinte situação: a população de um determinado tipo de bactéria triplica de tamanho a cada 2 dias.
   Construa uma função que calcule a população de uma colônia inicial mente com n bactérias, por um perı́odo de t dias.
@@ -12,14 +11,13 @@ Em seguida, aplique sua função para calcular a quantidade de bactérias após 
 colônia inicialmente com 30 bactérias.
 */
 
+  // Função
+  function triplicar(n, t) {
+    const populacao = n * Math.pow(3, t / 2)
+    return Math.round(populacao)
+  }
 
-// Função
-
-
-// Aplicação
-
-
-// Mostra resultado
-
-
-</script>
+  // Aplicação
+  const resultado = triplicar(30, 30);
+  alert(`População após 30 dias: ` + resultado.toLocaleString(`pt-BR`));
+  </script>

@@ -1,11 +1,10 @@
-
 <meta charset="UTF-8">
 <script>
   // NOMES DOS INTEGRANTES DO GRUPO:
-  
+
   /* PROBLEMA 1: Programe as seguintes funções:
 
-f(x) = 2x^2 - 3x + 8
+ f(x) = 2x^2 - 3x + 8
 
 e
 
@@ -20,10 +19,30 @@ OBSERVAÇÃO: caso não esteja entendendo a descrição das funções acima (sob
 dê uma olhada no arquivo "atividade_programacao-1info1.pdf" para maior clareza.
 */
 
-// Função
+  /* Função
+  f(x) = 2 * (-3) ^ 2 - 3 * (-3) + 8
 
-// Aplicação
+  g(x) = 3 * 5 - 8, //se x >= 1
+  g(x) = -2 * 5 ^ 2 + 8 * 5 //se x < 1
+  */
 
-// Mostra resultado
-  
+  // Aplicação
+  function f(x) {
+
+    const y = 2 * Math.pow(x, 2) - 3 * x + 8;
+    return y;
+  }
+
+  function g(x) {
+    if (x >= 1) return 3 * x - 8;
+    return -2 * Math.pow(x, 2) + 8 * x;
+  }
+
+  const resultadoF = f(-3);
+  const resultadoG = g(5);
+
+  // Mostra resultado
+  alert(`f(-3) =` + resultadoF);
+  alert(`g(5) =` + resultadoG);
+
 </script>
